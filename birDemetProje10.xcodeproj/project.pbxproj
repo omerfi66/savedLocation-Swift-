@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		57E14EC02BE9284D00EF9FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E14EBF2BE9284D00EF9FB1 /* AppDelegate.swift */; };
 		57E14EC22BE9284D00EF9FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E14EC12BE9284D00EF9FB1 /* SceneDelegate.swift */; };
-		57E14EC42BE9284D00EF9FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E14EC32BE9284D00EF9FB1 /* ViewController.swift */; };
+		57E14EC42BE9284D00EF9FB1 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E14EC32BE9284D00EF9FB1 /* MapsViewController.swift */; };
 		57E14EC72BE9284D00EF9FB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 57E14EC62BE9284D00EF9FB1 /* Base */; };
 		57E14ECA2BE9284D00EF9FB1 /* birDemetProje10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57E14EC82BE9284D00EF9FB1 /* birDemetProje10.xcdatamodeld */; };
 		57E14ECC2BE9284F00EF9FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E14ECB2BE9284F00EF9FB1 /* Assets.xcassets */; };
 		57E14ECF2BE9284F00EF9FB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 57E14ECE2BE9284F00EF9FB1 /* Base */; };
+		57E14ED72BE9777900EF9FB1 /* ilikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E14ED62BE9777900EF9FB1 /* ilikViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57E14EBC2BE9284D00EF9FB1 /* birDemetProje10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birDemetProje10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E14EBF2BE9284D00EF9FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E14EC12BE9284D00EF9FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57E14EC32BE9284D00EF9FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57E14EC32BE9284D00EF9FB1 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		57E14EC62BE9284D00EF9FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57E14EC92BE9284D00EF9FB1 /* birDemetProje10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = birDemetProje10.xcdatamodel; sourceTree = "<group>"; };
 		57E14ECB2BE9284F00EF9FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57E14ECE2BE9284F00EF9FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57E14ED02BE9284F00EF9FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E14ED62BE9777900EF9FB1 /* ilikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilikViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				57E14EBF2BE9284D00EF9FB1 /* AppDelegate.swift */,
 				57E14EC12BE9284D00EF9FB1 /* SceneDelegate.swift */,
-				57E14EC32BE9284D00EF9FB1 /* ViewController.swift */,
+				57E14EC32BE9284D00EF9FB1 /* MapsViewController.swift */,
+				57E14ED62BE9777900EF9FB1 /* ilikViewController.swift */,
 				57E14EC52BE9284D00EF9FB1 /* Main.storyboard */,
 				57E14ECB2BE9284F00EF9FB1 /* Assets.xcassets */,
 				57E14ECD2BE9284F00EF9FB1 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E14EC42BE9284D00EF9FB1 /* ViewController.swift in Sources */,
+				57E14EC42BE9284D00EF9FB1 /* MapsViewController.swift in Sources */,
+				57E14ED72BE9777900EF9FB1 /* ilikViewController.swift in Sources */,
 				57E14ECA2BE9284D00EF9FB1 /* birDemetProje10.xcdatamodeld in Sources */,
 				57E14EC02BE9284D00EF9FB1 /* AppDelegate.swift in Sources */,
 				57E14EC22BE9284D00EF9FB1 /* SceneDelegate.swift in Sources */,
