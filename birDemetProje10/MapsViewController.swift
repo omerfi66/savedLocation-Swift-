@@ -75,7 +75,8 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
                                             mapView.addAnnotation(annotation)
                                             isimTextField.text = annotaionTitle
                                             notTextField.text = annotationSubtitle
-                                            locationManager.startUpdatingLocation()
+                                            //locationManager.startUpdatingLocation()
+                                            locationManager.stopUpdatingLocation()
                                             
                                             let span = MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03)
                                             let region = MKCoordinateRegion(center: coordinate, span: span)
